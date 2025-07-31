@@ -10,5 +10,8 @@ $isLogged = true; // boolean
 
 //string concatenation use (.) operator
 echo "My name is " . $name . " , my age is " . $age . " year old ";
+echo "\n";
+//double quote variable interpolation
+echo "My name is $name , and i am $age years old\n"
 
 ?>
