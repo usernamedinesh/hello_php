@@ -21,5 +21,10 @@ echo "\n";
 foreach ($fruits as $fruit) {
     echo "<p>" . $fruit . "</p>";
 }
+
+//looping through associative array 
+foreach($person as $key => $value) {
+    echo "<p><strong>$key:</strong> $value</p>";
+}
 echo "\n";
 ?>
