@@ -8,5 +8,17 @@ if ($number > 5 ) {
     echo "Them number is larger than 4 \n";
 }
 
+/* switch  */
+$fruit = "apple";
+switch ($fruit) {
+    case "apple" :
+        echo "You chose apple.";
+        break;
+    case "banana" :
+        echo "You chose banana.";
+        break;
+    default :
+         echo "invalid choice .";
+}
 echo "\n";
 ?>
