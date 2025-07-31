@@ -20,5 +20,18 @@ switch ($fruit) {
     default :
          echo "invalid choice .";
 }
+
+/* match we can use this instead of switch   */
+$statusCode = 100;
+
+echo "\n";
+$message  = match ($statusCode) {
+    200, 300 => "Ok",
+    400 => "error",
+    default => "Unknown status code ",
+};
+
+echo "$message";
+
 echo "\n";
 ?>
