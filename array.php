@@ -16,4 +16,10 @@ echo $person["first_name"];
 echo "\n";
 echo "age : " . $person["age"]; 
 echo "\n";
+
+// looping through  an array with foreach is very common 
+foreach ($fruits as $fruit) {
+    echo "<p>" . $fruit . "</p>";
+}
+echo "\n";
 ?>
