@@ -24,4 +24,12 @@ echo "\n";
 greet("John");
 
 echo "\n";
+
+/* anonymouns function */
+$fun = function($name){
+    printf("Hello %s\r\n", $name);
+};
+$fun("world");
+$fun("PHP");
+echo "\n";
 ?>
