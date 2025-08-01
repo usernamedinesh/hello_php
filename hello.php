@@ -12,7 +12,7 @@ $x1 = 19;
 /* we can redealre variable */
 $x1 = "string" ;
 $name = "foo"; //string
-$isLogged = true; // boolean
+$isLogged = true; // boolean true : 1 but false is not 0 it is empty(we got error)
 
 //string concatenation use (.) operator
 echo "My name is " . $name . " , my age is " . $age . " year old ";
