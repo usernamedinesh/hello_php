@@ -1,9 +1,14 @@
 <?php echo "start \n" ?>
 <?php
 
+//constant is key value pairs using define keywoard
+define("SUB","PHPBRO");
+define("NAME","NODEJS");
+echo SUB;
+echo NAME;
 
 /* workes here  */
-printf("helo printf"); 
+printf("\nhelo printf"); 
 echo "hello world\n";
 
 //variable start with $
