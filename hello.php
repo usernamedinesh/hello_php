@@ -6,6 +6,8 @@ define("SUB","PHPBRO");
 define("NAME","NODEJS");
 echo SUB;
 echo NAME;
+const LANG = "javscript";
+const H = "yeah";
 
 /* workes here  */
 printf("\nhelo printf"); 
