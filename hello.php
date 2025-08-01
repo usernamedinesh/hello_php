@@ -14,10 +14,10 @@ $x1 = "string" ;
 $name = "foo"; //string
 $isLogged = true; // boolean true : 1 but false is not 0 it is empty(we got error)
 
-//string concatenation use (.) operator
+//string concatenation use (.) operator 
 echo "My name is " . $name . " , my age is " . $age . " year old ";
 echo "\n";
-//double quote variable interpolation
+//double quote required variable interpolation
 echo "My name is $name , and i am $age years old\n"
 
 ?>
