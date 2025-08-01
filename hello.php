@@ -9,6 +9,8 @@ echo "hello world\n";
 //variable start with $
 $age = 18; // integer 
 $x1 = 19;
+/* we can redealre variable */
+$x1 = "string" ;
 $name = "foo"; //string
 $isLogged = true; // boolean
 
