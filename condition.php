@@ -40,6 +40,7 @@ echo " this is valid ";
 if (false) {};
 if (0) {};
 if (null) {};
+/* (===) check both number and types like js */
 
 echo "\n";
 ?>

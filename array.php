@@ -12,6 +12,9 @@ $person = [
     "last_name" => "Doe",
     "age" => 30
 ];
+// i can print while array  like this  
+print_r($person);
+
 echo $person["first_name"]; 
 echo "\n";
 echo "age : " . $person["age"]; 
