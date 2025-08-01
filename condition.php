@@ -32,6 +32,14 @@ $message  = match ($statusCode) {
 };
 
 echo "$message";
+{
+echo " this is valid ";
+}
+
+/* if block wont execute */
+if (false) {};
+if (0) {};
+if (null) {};
 
 echo "\n";
 ?>
