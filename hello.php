@@ -1,5 +1,9 @@
+<?php echo "start \n" ?>
 <?php
 
+
+/* workes here  */
+printf("helo printf"); 
 echo "hello world\n";
 
 //variable start with $
@@ -15,3 +19,5 @@ echo "\n";
 echo "My name is $name , and i am $age years old\n"
 
 ?>
+
+<?php echo "end " ?>
