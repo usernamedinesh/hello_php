@@ -35,5 +35,14 @@ foreach ($fruits as $fruit) {
 foreach($person as $key => $value) {
     echo "<p><strong>$key:</strong> $value</p>";
 }
+
+// accesing only value
+foreach($person as $value) {
+    echo "<p><strong> $value</p>";
+}
 echo "\n";
+
+/* note  */
+/* using foreach loop we cna iter both index and associate and object  */
+/* using for loop only iterate index array */
 ?>
