@@ -9,6 +9,12 @@
         <?php
             /* $arr = ["HTML","C++","PHP","RUST","LUA","GO"]; */
             $arr = array("HTML","C++","PHP","RUST","LUA","GO");
+        $user = [
+            "name" => "Ram",
+            "age" => 24,
+            "gender" => "male",
+            "country" => "india"
+        ]
         ?>
         <h1> Programing languages </h1>
         <ul>
@@ -18,6 +24,15 @@
                     echo "<li>".$arr[$i]."</li>";
                 }
                 ?>
+        </ul>
+        <h1>User Details : </h1>
+        <ul>
+            <?php
+            foreach($user as $key => $value) 
+            {
+            echo "<li>" . $key . " : " . $value ."</li>";
+            }
+            ?>
         </ul>
         <body>
 </html>
