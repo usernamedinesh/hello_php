@@ -45,4 +45,25 @@ echo "\n";
 /* note  */
 /* using foreach loop we cna iter both index and associate and object  */
 /* using for loop only iterate index array */
+
+/* METHOD */
+/*
+count : total number of element  of array
+echo count($var);
+only sort array values 
+sort: sorting in asceding(a to z order and return true 
+rsort: sorting in desceing(z to a) order and return true (issue because lowercae and uppercase is diff)
+natcasesort : sort in descding( aA is treat as same )
+natcasesort($var) 
+sort($var) 
+rsort($var) 
+
+
+ksort($var) : sorting key
+krsort($var) : sorting key in reverse order 
+
+* array_combine(arr1, arr2) : arr1 => key | arr2 = value 
+* only pass two args and both arg1 and arg2 have same no of emenet
+
+*/
 ?>
