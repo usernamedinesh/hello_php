@@ -1,16 +1,22 @@
 <?php
 echo "array php\n";
+// call index array
 $fruits = ["banana", "mango", "apple"];
 echo $fruits[1]; // mango
 $fruits[2] = "pineapple\n";
+/* we can count the number of array */
+echo "\n";
+echo "the count of fruits is : " , count($fruits);
 echo "\n";
 echo $fruits[2]; // pineapple
 
-//key value paris 
+//key value paris  name index (associative array)
 $person = [
     "first_name" => "John",
     "last_name" => "Doe",
-    "age" => 30
+    "age" => 30,
+    10,
+    120,
 ];
 // i can print while array  like this  
 print_r($person);
