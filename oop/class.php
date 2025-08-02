@@ -44,12 +44,13 @@ echo $obj->name;
  
 */
 
+/*
+ * SCOPE RESOLUTION OPERATOR (::)
+   using this can access static members  and constant of class
+*/
 StaticClass::welcome();
 echo StaticClass::$x;
 
 
-/* SCOPE RESOLUTION OPERATOR (::)
-   using this can access static members  and constant of class
-*/
 
 ?>
