@@ -6,9 +6,17 @@
 class Sample 
 {
     public $name = "dinesh";
+    public $age = 24;
     function greeting()
     {
         echo "Greeing from function !";
+        echo "<br>";
+    }
+    function acc_non_static_member() {
+        echo "my name is : " . $this->name;
+    }
+    function display() {
+        $this->greeting();
     }
 }
 
@@ -16,9 +24,18 @@ class StaticClass
 {
 
     static $x = 10;
+    static $name = "dinesh";
     static function welcome() 
     {
         echo  "<p> This is welcome static function </p>";
+    }
+    static function acc_static_member() {
+        echo "<br>";
+        echo "my name is : " . self::$name;
+    }
+    static function display() {
+        echo "<br>";
+        self::welcome();
     }
 }
 
@@ -29,8 +46,10 @@ class StaticClass
 */
 $obj = new Sample;
 $obj->greeting();
+$obj->display();
+$obj->acc_non_static_member();
 echo "<br>";
-echo $obj->name;
+echo "age : " . $obj->age;
 
 /*
  * TWO TYPE MEMBER
@@ -47,9 +66,12 @@ echo $obj->name;
 /*
  * SCOPE RESOLUTION OPERATOR (::)
    using this can access static members  and constant of class
+    using self:: keyboard we can access static members
 */
 StaticClass::welcome();
 echo StaticClass::$x;
+StaticClass::acc_static_member();
+StaticClass::display();
 
 
 
